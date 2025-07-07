@@ -15,3 +15,16 @@ author:
   name: "Sandra R. Babyale"
   avatar: "/assets/images/profile.png" # Upload your image later
   bio: "PhD researcher in wildfire smoke transport, data assimilation, and computational mathematics."
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+    
+navigation:
+  - title: "Home"
+    url: /
+  - title: "CV"
+    url: /cv/
+  - title: "Projects"
+    url: /projects/
