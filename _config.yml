@@ -1,26 +1,13 @@
-title: "Sandra R. Babyale"
-email: "sandrababyale@gmail.com.com"
-description: >-
-  Computational modeling, wildfire smoke transport, and air quality forecasting.
-baseurl: "" # Leave this blank for user.github.io sites
-url: "https://BabyaleSandra.github.io"
-
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-
-author:
-  name: "Sandra R. Babyale"
-  avatar: "/assets/images/profile.png" # Upload your image later
-  bio: "PhD researcher in wildfire smoke transport, data assimilation, and computational mathematics."
-
 collections:
   projects:
     output: true
     permalink: /projects/:path/
-    
+
 navigation:
   - title: "Home"
     url: /
