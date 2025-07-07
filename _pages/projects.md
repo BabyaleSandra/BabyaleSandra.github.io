@@ -6,4 +6,4 @@ collection: projects
 entries_layout: grid
 ---
 
-A showcase of my projects in wildfire smoke transport, data assimilation, and pollution forecasting.
+Here are some of my wildfire smoke and pollution forecasting projects.
