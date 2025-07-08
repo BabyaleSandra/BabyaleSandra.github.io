@@ -4,9 +4,8 @@ author_profile: true
 permalink: /
 ---
 
-Welcome! I’m a PhD researcher working on wildfire smoke modeling, pollution forecasting, and data assimilation.  
-This blog highlights my research projects, insights into air quality tools, and tutorials on smoke transport models.
-
+I’m a highly motivated Ph.D. candidate in Computational Mathematics with a strong background scientific computing, numerical modeling, data assimilation and inverse methods. My research focuses on modeling complex physical systems particularly wildfire smoke transport by combining high-performance computing with techniques from data assimilation and inverse problems. I enjoy building and testing algorithms, running large-scale simulations, and working across disciplines to solve real-world challenges. Sharing my work through writing and presentations has also been a key part of my growth as a researcher.
+ 
 
 
 📰 **Latest Post**  
