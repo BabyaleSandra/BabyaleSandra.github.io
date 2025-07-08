@@ -36,6 +36,8 @@ main:
   - title: "Projects"
     url: /projects/
     
+header:
+  nav: "main"
 # Author info
 author:
   name: "Sandra R. Babyale"
