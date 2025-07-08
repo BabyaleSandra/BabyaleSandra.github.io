@@ -14,5 +14,3 @@ Explore: [How Accurate Are Smoke Forecasts?](./2025/07/07/how-accurate-are-smoke
 🔬 **Recent Research**  
 Currently working on improving wildfire smoke forecast accuracy through advanced data assimilation techniques and model error quantification.
 
-📧 **Contact**  
-Feel free to reach out at [sandrababyale@boisestate.edu](mailto:sandrababyale@boisestate.edu) for research collaborations or questions.
