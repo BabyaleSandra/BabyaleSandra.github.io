@@ -19,6 +19,7 @@ collections:
     output: true
     permalink: /publications/:path/
 
+
 # Site navigation
 main:
   - title: "Home"
