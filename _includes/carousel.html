@@ -1,9 +1,13 @@
-<div class="home-slider">
-  <div><img src="{{ '/assets/images/image_1.jpg' | relative_url }}" alt="Image 1" style="width:100%; height:auto;"></div>
-  <div><img src="{{ '/assets/images/image_2.jpg' | relative_url }}" alt="Image 2" style="width:100%; height:auto;"></div>
-  <div><img src="{{ '/assets/images/image_3.jpg' | relative_url }}" alt="Image 3" style="width:100%; height:auto;"></div>
-  <div><img src="{{ '/assets/images/image_4.jpg' | relative_url }}" alt="Image 4" style="width:100%; height:auto;"></div>
-</div>
+<section class="home-slider-section">
+  <div class="container">
+    <div class="home-slider">
+      <div><img src="{{ '/assets/images/image_1.jpg' | relative_url }}" alt="Image 1" style="width:100%; height:auto;"></div>
+      <div><img src="{{ '/assets/images/image_2.jpg' | relative_url }}" alt="Image 2" style="width:100%; height:auto;"></div>
+      <div><img src="{{ '/assets/images/image_3.jpg' | relative_url }}" alt="Image 3" style="width:100%; height:auto;"></div>
+      <div><img src="{{ '/assets/images/image_4.jpg' | relative_url }}" alt="Image 4" style="width:100%; height:auto;"></div>
+    </div>
+  </div>
+</section>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -20,3 +24,10 @@
     }
   });
 </script>
+
+<style>
+  /* Optional: add some spacing */
+  .home-slider-section {
+    margin-bottom: 2rem;
+  }
+</style>
