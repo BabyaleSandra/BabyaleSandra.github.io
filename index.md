@@ -1,7 +1,11 @@
 ---
 layout: home
-title: "Welcome"
-excerpt: "Sandra R. Babyale | Wildfire Smoke Transport, Data Assimilation, Computational Modeling"
+title: "Sandra R. Babyale"
+permalink: /
+author_profile: true
 ---
 
-Welcome to my research blog! I write about wildfire smoke modeling, pollution transport, and data assimilation methods, blending science and computation.
+Welcome to my personal site and research blog. I work on wildfire smoke modeling, air quality forecasting, and data assimilation methods.
+
+📂 [Projects](/projects/)  
+📄 [CV](/cv/)
