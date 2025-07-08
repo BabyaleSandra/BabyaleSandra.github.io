@@ -15,4 +15,4 @@ Explore: [How Accurate Are Smoke Forecasts?](./2025/07/07/how-accurate-are-smoke
 🧪 **Projects**  
 From model error estimation to HYSPLIT comparisons → [Projects](/projects/)
 
-📄 **[Download CV](assets/files/sandra-babyale-cv.pdf)**
+📄 **[Download CV](assets/files/Sandra-Babyale-cv.pdf)**
