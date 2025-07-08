@@ -136,6 +136,12 @@ defaults:
   # _posts
   - scope:
       path: ""
+    values:
+      sidebar:
+        nav: ""
+        
+  - scope:
+      path: ""
       type: posts
     values:
       layout: single
