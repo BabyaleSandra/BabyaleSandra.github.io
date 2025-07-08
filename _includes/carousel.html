@@ -1,33 +1,20 @@
-<section class="home-slider-section">
-  <div class="container">
-    <div class="home-slider">
-      <div><img src="{{ '/assets/images/image_1.jpg' | relative_url }}" alt="Image 1" style="width:100%; height:auto;"></div>
-      <div><img src="{{ '/assets/images/image_2.jpg' | relative_url }}" alt="Image 2" style="width:100%; height:auto;"></div>
-      <div><img src="{{ '/assets/images/image_3.jpg' | relative_url }}" alt="Image 3" style="width:100%; height:auto;"></div>
-      <div><img src="{{ '/assets/images/image_4.jpg' | relative_url }}" alt="Image 4" style="width:100%; height:auto;"></div>
-    </div>
-  </div>
-</section>
+<div class="home-slider">
+  <div><img src="{{ '/assets/images/image_1.jpg' | relative_url }}" alt="Image 1"></div>
+  <div><img src="{{ '/assets/images/image_2.jpg' | relative_url }}" alt="Image 2"></div>
+  <div><img src="{{ '/assets/images/image_3.jpg' | relative_url }}" alt="Image 3"></div>
+  <div><img src="{{ '/assets/images/image_4.jpg' | relative_url }}" alt="Image 4"></div>
+</div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    if (typeof jQuery !== 'undefined' && typeof jQuery('.home-slider').slick === 'function') {
-      jQuery('.home-slider').slick({
-        autoplay: true,
-        autoplaySpeed: 3000,
-        dots: true,
-        arrows: true,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      });
-    }
+    $('.home-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      dots: true,
+      arrows: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
   });
 </script>
-
-<style>
-  /* Optional: add some spacing */
-  .home-slider-section {
-    margin-bottom: 2rem;
-  }
-</style>
