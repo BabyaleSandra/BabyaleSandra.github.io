@@ -19,8 +19,8 @@ collections:
     output: true
     permalink: /publications/:path/
 
-# Main navigation
-main:
+# Navigation
+navigation:
   - title: "Publications"
     url: /publications/
   - title: "Presentations"
