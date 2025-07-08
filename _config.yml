@@ -16,3 +16,5 @@ navigation:
   - title: "Projects"
     url: /projects/
 
+include:
+  - _pages
