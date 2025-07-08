@@ -18,3 +18,14 @@ navigation:
 
 include:
   - _pages
+
+author:
+  name: "Sandra R. Babyale"
+  avatar: "/assets/images/profile.png"
+  bio: "PhD researcher in wildfire smoke modeling, data assimilation, and computational mathematics."
+
+  location: "Boise, ID"
+  email: "sandrababyale@gmail.com"
+  github: "BabyaleSandra"
+  scholar: "your-scholar-id"  # optional
+  orcid: "your-orcid-id"      # optional
