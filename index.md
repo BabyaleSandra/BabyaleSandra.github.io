@@ -11,8 +11,8 @@ I'm a Ph.D. candidate in Computational Mathematics at Boise State University wit
 
 ## Latest Updates
 
-📰 **Latest Post**  
+**Latest Post**  
 Explore: [How Accurate Are Smoke Forecasts?](./2025/07/07/how-accurate-are-smoke-forecasts/)
 
-🔬 **Recent Research**  
+**Recent Research**  
 Currently working on improving wildfire smoke forecast accuracy through advanced data assimilation techniques and model error quantification.
