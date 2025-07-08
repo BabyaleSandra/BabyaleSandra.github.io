@@ -11,10 +11,14 @@ collections:
 navigation:
   - title: "Home"
     url: /
-  - title: "CV"
-    url: /cv/
   - title: "Projects"
     url: /projects/
+  - title: "CV"
+    url: /cv/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contact"
+    url: /contact/
 
 include:
   - _pages
