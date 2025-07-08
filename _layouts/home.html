@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="quick-nav" style="text-align: center; padding: 10px 0; border-bottom: 1px solid #f2f3f3; margin-bottom: 20px;">
+  📚 <a href="{{ '/publications/' | relative_url }}"><strong>Publications</strong></a> | 
+  🎤 <a href="{{ '/presentations/' | relative_url }}"><strong>Presentations</strong></a> | 
+  👩‍🏫 <a href="{{ '/teaching/' | relative_url }}"><strong>Teaching</strong></a> | 
+  📄 <a href="{{ '/cv/' | relative_url }}"><strong>CV</strong></a> | 
+  👥 <a href="{{ '/students/' | relative_url }}"><strong>Students</strong></a> | 
+  🧪 <a href="{{ '/projects/' | relative_url }}"><strong>Projects</strong></a>
+</div>
+
+{{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
