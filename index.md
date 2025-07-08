@@ -1,11 +1,17 @@
 ---
 layout: home
+author_profile: true
 title: "Sandra R. Babyale"
 permalink: /
-author_profile: true
 ---
 
-Welcome to my personal site and research blog. I work on wildfire smoke modeling, air quality forecasting, and data assimilation methods.
+Welcome! I’m a PhD researcher working on wildfire smoke modeling, pollution forecasting, and data assimilation.  
+This blog highlights my research projects, insights into air quality tools, and tutorials on smoke transport models.
 
-📂 [Projects](/projects/)  
-📄 [CV](/cv/)
+📰 **Latest Post**  
+Explore: [How Accurate Are Smoke Forecasts?](./2025/07/07/how-accurate-are-smoke-forecasts/)
+
+🧪 **Projects**  
+From model error estimation to HYSPLIT comparisons → [Projects](/projects/)
+
+📄 **[Download CV](assets/files/sandra-babyale-cv.pdf)**
