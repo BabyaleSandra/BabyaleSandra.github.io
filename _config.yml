@@ -19,8 +19,10 @@ collections:
     output: true
     permalink: /publications/:path/
 
-# Navigation
-navigation:
+# Site navigation
+main:
+  - title: "Home"
+    url: /
   - title: "Publications"
     url: /publications/
   - title: "Presentations"
@@ -33,7 +35,7 @@ navigation:
     url: /students/
   - title: "Projects"
     url: /projects/
-
+    
 # Author info
 author:
   name: "Sandra R. Babyale"
