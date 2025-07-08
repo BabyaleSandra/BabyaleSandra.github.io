@@ -1,9 +1,8 @@
 ---
 layout: single
-title: "Curriculum Vitae"
+title: "CV"
 permalink: /cv/
+author_profile: true
 ---
 
-# Curriculum Vitae
-
-Here you can add your CV content — education, experience, publications, etc.
+Download my full CV [here](../assets/files/sandra-babyale-cv.pdf).
