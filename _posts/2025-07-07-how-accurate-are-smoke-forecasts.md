@@ -1,7 +1,9 @@
 ---
 title: "How Accurate Are Smoke Forecasts? A Case Study Using HYSPLIT and PM2.5 Observations"
+date: 2025-07-07
 layout: single
 author: Sandra R. Babyale
+author_profile: true
 excerpt: "Analyzing the Thompson Fire using HYSPLIT forecasts vs. real PM2.5 data."
 categories: 
   - wildfire
