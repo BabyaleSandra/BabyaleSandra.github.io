@@ -15,5 +15,5 @@ Currently working on improving wildfire smoke forecast accuracy through data ass
 ## Latest Updates
 
 **Latest Post**  
-Explore: [How Accurate Are Smoke Forecasts?](./2025/07/07/how-accurate-are-smoke-forecasts/)
+Explore: [How Accurate Are Smoke Forecasts?](posts/2025-07-07-how-accurate-are-smoke-forecasts.md)
 
