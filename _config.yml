@@ -10,7 +10,6 @@ baseurl: ""
 locale: "en-US"
 title_separator: "-"
 
-# Collections
 collections:
   projects:
     output: true
@@ -18,7 +17,9 @@ collections:
   publications:
     output: true
     permalink: /publications/:path/
-
+  pages:
+    output: true
+    permalink: /:path/
 # Site navigation
 main:
   - title: "Home"
