@@ -75,7 +75,8 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 .slide img {
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  object-fit: contain; /* Changed from 'cover' to 'contain' */
+  background-color: #f8f9fa; /* Add background color for letterboxing */
 }
 
 .slide-caption {
