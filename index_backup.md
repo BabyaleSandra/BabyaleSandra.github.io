@@ -12,26 +12,26 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
   <div class="slideshow-container">
     <div class="slide active">
       <img src="/assets/images/image_1.jpg" alt="Wildfire Smoke Modeling">
-      <div class="slide-caption">
+      <!-- <div class="slide-caption">
         <h3>Wildfire Smoke Modeling</h3>
         <p>Advanced computational techniques for smoke transport prediction</p>
-      </div>
+      </div> -->
     </div>
     
     <div class="slide">
       <img src="/assets/images/image_2.jpg" alt="Data Assimilation">
-      <div class="slide-caption">
-        <h3>Data Assimilation</h3>
-        <p>Improving model accuracy through observational data integration</p>
-      </div>
+      <!-- <div class="slide-caption">
+        <h3>Wildfire Smoke Modeling</h3>
+        <p>Advanced computational techniques for smoke transport prediction</p>
+      </div> -->
     </div>
     
     <div class="slide">
       <img src="/assets/images/image_3.jpg" alt="Computational Mathematics">
-      <div class="slide-caption">
-        <h3>Computational Mathematics</h3>
-        <p>High-performance computing for complex physical systems</p>
-      </div>
+      <!-- <div class="slide-caption">
+        <h3>Wildfire Smoke Modeling</h3>
+        <p>Advanced computational techniques for smoke transport prediction</p>
+      </div> -->
     </div>
     
     <!-- Navigation arrows -->
