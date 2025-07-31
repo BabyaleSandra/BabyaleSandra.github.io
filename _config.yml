@@ -10,6 +10,7 @@ baseurl: ""
 locale: "en-US"
 title_separator: "-"
 
+# Collections
 collections:
   projects:
     output: true
@@ -17,28 +18,22 @@ collections:
   publications:
     output: true
     permalink: /publications/:path/
-  
-# Site navigation
-main:
-  - title: "Home"
-    url: /
-  - title: "Publications"
-    url: /publications/
-  - title: "Presentations"
-    url: /presentations/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "CV"
-    url: /cv/
-  - title: "Students"
-    url: /students/
-  - title: "Projects"
-    url: /projects/
 
-header:
-  nav: "main"
-
-
+# Navigation - THIS IS THE KEY FIX
+navigation:
+  main:
+    - title: "Home"
+      url: /
+    - title: "Publications"
+      url: /publications/
+    - title: "Presentations"
+      url: /presentations/
+    - title: "Teaching"
+      url: /teaching/
+    - title: "CV"
+      url: /cv/
+    - title: "Projects"
+      url: /projects/
 
 # Author info
 author:
@@ -110,7 +105,7 @@ paginate: 5
 paginate_path: /page:num/
 timezone: America/Boise
 
-# Plugins (no whitelist block, only plugins)
+# Plugins
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
@@ -125,15 +120,16 @@ compress_html:
   ignore:
     envs: development
 
-# Defaults (disable sidebar nav globally)
+# Defaults
 defaults:
+  # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -144,14 +140,7 @@ defaults:
       comments: true
       share: true
       related: true
-
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
+  # _projects
   - scope:
       path: ""
       type: projects
@@ -159,7 +148,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-
+  # _publications
   - scope:
       path: ""
       type: publications
