@@ -11,7 +11,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 <div class="research-slideshow">
   <div class="slideshow-container">
     <div class="slide active">
-      <img src="/assets/images/image_4.jpg" alt="Wildfire Smoke Modeling">
+      <img src="/assets/images/image_5.jpg" alt="Wildfire Smoke Modeling">
 <!-- <div class="slide-caption">
         <h3>Wildfire Smoke Modeling</h3>
         <p>Advanced computational techniques for smoke transport prediction</p>
