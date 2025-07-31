@@ -11,7 +11,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 <div class="research-slideshow">
   <div class="slideshow-container">
     <div class="slide active">
-      <img src="/assets/images/image_1.jpg" alt="Wildfire Smoke Modeling">
+      <img src="/assets/images/image_3.jpg" alt="Wildfire Smoke Modeling">
 <!-- <div class="slide-caption">
         <h3>Wildfire Smoke Modeling</h3>
         <p>Advanced computational techniques for smoke transport prediction</p>
@@ -19,7 +19,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
     </div>
     
     <div class="slide">
-      <img src="/assets/images/image_2.jpg" alt="Data Assimilation">
+      <img src="/assets/images/image_1.jpg" alt="Data Assimilation">
      <!-- <div class="slide-caption">
         <h3>Wildfire Smoke Modeling</h3>
         <p>Advanced computational techniques for smoke transport prediction</p>
@@ -27,7 +27,15 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
     </div>
     
     <div class="slide">
-      <img src="/assets/images/image_3.jpg" alt="Computational Mathematics">
+      <img src="/assets/images/image_2.jpg" alt="Computational Mathematics">
+      <!-- <div class="slide-caption">
+        <h3>Wildfire Smoke Modeling</h3>
+        <p>Advanced computational techniques for smoke transport prediction</p>
+      </div> -->
+    </div>
+
+    <div class="slide">
+      <img src="/assets/images/image_4.jpg" alt="Computational Mathematics">
       <!-- <div class="slide-caption">
         <h3>Wildfire Smoke Modeling</h3>
         <p>Advanced computational techniques for smoke transport prediction</p>
