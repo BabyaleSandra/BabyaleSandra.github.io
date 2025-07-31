@@ -17,10 +17,7 @@ collections:
   publications:
     output: true
     permalink: /publications/:path/
-  pages:
-    output: true
-    permalink: /:path/
-    directory: _pages
+  
 # Site navigation
 main:
   - title: "Home"
@@ -131,10 +128,11 @@ compress_html:
 # Defaults (disable sidebar nav globally)
 defaults:
   - scope:
-      path: ""
+      path: "_pages"
+      type: pages
     values:
-      sidebar:
-        nav: ""
+      layout: single
+      author_profile: true
 
   - scope:
       path: ""
