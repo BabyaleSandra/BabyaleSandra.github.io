@@ -19,21 +19,7 @@ collections:
     output: true
     permalink: /publications/:path/
 
-# Navigation - THIS IS THE KEY FIX
-navigation:
-  main:
-    - title: "Home"
-      url: /
-    - title: "Publications"
-      url: /publications/
-    - title: "Presentations"
-      url: /presentations/
-    - title: "Teaching"
-      url: /teaching/
-    - title: "CV"
-      url: /cv/
-    - title: "Projects"
-      url: /projects/
+# Navigation is now in _data/navigation.yml
 
 # Author info
 author:
