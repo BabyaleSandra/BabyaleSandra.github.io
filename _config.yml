@@ -20,6 +20,7 @@ collections:
   pages:
     output: true
     permalink: /:path/
+    directory: _pages
 # Site navigation
 main:
   - title: "Home"
