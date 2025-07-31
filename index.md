@@ -58,7 +58,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 
 <style>
 .research-slideshow {
-  max-width: 700px; /* Back to larger width */
+  max-width: 700px; /* Increased width */
   margin: 20px auto;
   position: relative;
 }
@@ -82,9 +82,10 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 
 .slide img {
   width: 100%;
-  height: 400px; /* Back to larger height */
-  object-fit: cover;
-  object-position: center top;
+  height: auto; /* Let height adjust naturally */
+  max-height: 500px; /* Set maximum height */
+  object-fit: contain;
+  background-color: #f8f9fa;
   display: block;
 }
 
@@ -162,7 +163,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
   }
   
   .slide img {
-    height: 350px; /* Back to larger mobile height */
+    max-height: 400px;
   }
   
   .prev, .next {
