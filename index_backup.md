@@ -11,7 +11,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 <div class="research-slideshow">
   <div class="slideshow-container">
     <div class="slide active">
-      <img src="/assets/images/image_3.jpg" alt="Wildfire Smoke Modeling">
+      <img src="/assets/images/image_4.jpg" alt="Wildfire Smoke Modeling">
       <!-- <div class="slide-caption">
         <h3>Wildfire Smoke Modeling</h3>
         <p>Advanced computational techniques for smoke transport prediction</p>
@@ -35,7 +35,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
     </div>
 
     <div class="slide">
-      <img src="/assets/images/image_4.jpg" alt="Computational Mathematics">
+      <img src="/assets/images/image_3.jpg" alt="Computational Mathematics">
       <!-- <div class="slide-caption">
         <h3>Wildfire Smoke Modeling</h3>
         <p>Advanced computational techniques for smoke transport prediction</p>
@@ -50,14 +50,15 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
   <!-- Dots indicator -->
   <div class="dots-container">
     <span class="dot active" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
   </div>
 </div>
 
 <style>
 .research-slideshow {
-  max-width: 700px; /* Increased width */
+  max-width: 600px; /* Back to original smaller width */
   margin: 20px auto;
   position: relative;
 }
@@ -81,10 +82,9 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 
 .slide img {
   width: 100%;
-  height: auto; /* Let height adjust naturally */
-  max-height: 500px; /* Set maximum height */
-  object-fit: contain;
-  background-color: #f8f9fa;
+  height: 300px; /* Back to original smaller height */
+  object-fit: cover;
+  object-position: center top;
   display: block;
 }
 
@@ -162,7 +162,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
   }
   
   .slide img {
-    max-height: 400px;
+    height: 250px; /* Back to original mobile height */
   }
   
   .prev, .next {
