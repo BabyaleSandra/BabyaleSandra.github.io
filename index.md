@@ -12,7 +12,5 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 Currently working on improving wildfire smoke forecast accuracy through data assimilation techniques and model error quantification.
 
 
-## Latest Updates
-
-**Latest Post**  
+## Latest Updates 
 Explore: [How Accurate Are Smoke Forecasts?](/2025/07/07/how-accurate-are-smoke-forecasts/)
