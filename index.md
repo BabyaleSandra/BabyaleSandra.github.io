@@ -73,10 +73,9 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 
 .slide img {
   width: 100%;
-  height: auto; /* Let height adjust naturally */
-  max-height: 500px; /* Set maximum height */
-  object-fit: contain;
-  background-color: #f8f9fa;
+  height: 400px; /* Fixed height for consistent slide size */
+  object-fit: cover; /* Fill the entire container */
+  object-position: center top; /* Focus on center-top of image */
   display: block;
 }
 
@@ -154,7 +153,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
   }
   
   .slide img {
-    max-height: 400px;
+    height: 350px; /* Increased mobile height */
   }
   
   .prev, .next {
