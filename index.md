@@ -54,6 +54,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
   position: relative;
 }
 
+
 .slideshow-container {
   position: relative;
   background: #f8f9fa;
