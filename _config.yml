@@ -41,14 +41,7 @@ main:
 header:
   nav: "main"
 
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/BabyaleSandra"
-    - label: "Feed"
-      icon: "fas fa-rss"
-      url: "/feed.xml"
+
 
 # Author info
 author:
