@@ -49,11 +49,10 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 
 <style>
 .research-slideshow {
-  max-width: 600px;
+  max-width: 700px; /* Increased width */
   margin: 20px auto;
   position: relative;
 }
-
 
 .slideshow-container {
   position: relative;
@@ -74,9 +73,11 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 
 .slide img {
   width: 100%;
-  height: 300px;
-  object-fit: contain; /* Changed from 'cover' to 'contain' */
-  background-color: #f8f9fa; /* Add background color for letterboxing */
+  height: auto; /* Let height adjust naturally */
+  max-height: 500px; /* Set maximum height */
+  object-fit: contain;
+  background-color: #f8f9fa;
+  display: block;
 }
 
 .slide-caption {
@@ -84,7 +85,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
   color: white;
   padding: 30px 20px 15px;
 }
@@ -113,6 +114,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
   cursor: pointer;
   border-radius: 0 3px 3px 0;
   transition: background-color 0.3s;
+  z-index: 10;
 }
 
 .next {
@@ -148,11 +150,11 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 /* Responsive design */
 @media (max-width: 768px) {
   .research-slideshow {
-    max-width: 90%;
+    max-width: 95%;
   }
   
   .slide img {
-    height: 250px;
+    max-height: 400px;
   }
   
   .prev, .next {
