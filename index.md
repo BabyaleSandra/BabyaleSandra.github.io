@@ -11,7 +11,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 <div class="research-slideshow">
   <div class="slideshow-container">
     <div class="slide active">
-      <img src="/assets/images/image_3.jpg" alt="Wildfire Smoke Modeling">
+      <img src="/assets/images/image_4.jpg" alt="Wildfire Smoke Modeling">
 <!-- <div class="slide-caption">
         <h3>Wildfire Smoke Modeling</h3>
         <p>Advanced computational techniques for smoke transport prediction</p>
@@ -35,7 +35,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
     </div>
 
     <div class="slide">
-      <img src="/assets/images/image_4.jpg" alt="Computational Mathematics">
+      <img src="/assets/images/image_3.jpg" alt="Computational Mathematics">
       <!-- <div class="slide-caption">
         <h3>Wildfire Smoke Modeling</h3>
         <p>Advanced computational techniques for smoke transport prediction</p>
@@ -57,7 +57,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 
 <style>
 .research-slideshow {
-  max-width: 700px; /* Increased width */
+  max-width: 600px; /* Back to original smaller width */
   margin: 20px auto;
   position: relative;
 }
@@ -81,9 +81,9 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
 
 .slide img {
   width: 100%;
-  height: 400px; /* Fixed height for consistent slide size */
-  object-fit: cover; /* Fill the entire container */
-  object-position: center top; /* Focus on center-top of image */
+  height: 300px; /* Back to original smaller height */
+  object-fit: cover;
+  object-position: center top;
   display: block;
 }
 
@@ -161,7 +161,7 @@ I’m a highly motivated Ph.D. candidate in Computational Mathematics with a str
   }
   
   .slide img {
-    height: 350px; /* Increased mobile height */
+    height: 250px; /* Back to original mobile height */
   }
   
   .prev, .next {
