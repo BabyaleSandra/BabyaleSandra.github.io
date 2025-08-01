@@ -5,4 +5,4 @@ permalink: /cv/
 author_profile: true
 ---
 
-Download my full CV [here](../assets/files/sandra-babyale-cv.pdf).
+Download my full CV [here](../assets/files/Sandra-Babyale-cv.pdf).
