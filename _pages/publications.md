@@ -7,22 +7,19 @@ author_profile: true
 
 ## Journal Articles
 
-**Babyale, S. R.**, Author, B., & Author, C. (2024). "Title of Your Paper." *Journal Name*, 12(3), 123-145. [DOI](https://doi.org/your-doi)
+**S. R. Babyale**, J. Mead, D. Calhoun & P. Azike (2025). "Model Error Covariance Estimation for Weak Constraint Data Assimilation." *Accepted for publication by the SIAM/ASA Journal for Uncertainty Quantification*
 
-**Babyale, S. R.**, & Co-Author, A. (2023). "Another Paper Title." *Another Journal*, 8(2), 67-89. [DOI](https://doi.org/your-doi)
 
-## Conference Papers
-
-**Babyale, S. R.**, Author, B. (2024). "Conference Paper Title." In *Proceedings of Conference Name*, pp. 234-245. Location: Publisher.
 
 ## Preprints
 
-**Babyale, S. R.**, et al. (2024). "Preprint Title." *arXiv preprint arXiv:2024.xxxxx*. [arXiv](https://arxiv.org/abs/2024.xxxxx)
+**S. R. Babyale**, J. Mead, D. Calhoun & P. Azike (2025). "Model Error Covariance Estimation for Weak Constraint Data Assimilation." *arXiv preprint 	arXiv:2504.17900*. [arXiv](https://doi.org/10.48550/arXiv.2504.17900)
+
 
 ## In Preparation
 
-**Babyale, S. R.**, & Collaborators. "Title of Work in Progress." *Target Journal* (in preparation).
+**S. R. Babyale**, J. Mead, D. Calhoun & P. Azike (2025). "A Sampling– Based Approach to Training Data Generation for Deep Neural Networks in Nonlinear Geophysical Parameter Estimation." *In preparation*
 
 ---
 
-*Last updated: July 2025*
+*Last updated: August 2025*
